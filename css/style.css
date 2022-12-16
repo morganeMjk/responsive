@@ -5,7 +5,7 @@ body {
   font-size: 16px;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 481px) {
   body {
     height: 1795px;
   }
@@ -58,7 +58,7 @@ body {
   color: #5B359D;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 481px) {
   .nav {
     display: flex;
     height: 50px;
@@ -118,7 +118,7 @@ body {
   font-style: italic;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 481px) {
   .presentation {
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,19 +152,19 @@ body {
   margin: 0px 30px 30px 30px;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 481px) {
   .activite__box {
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
+    width: 80%;
     margin: 0px auto;
   }
   .box {
-    width: 400px;
+    width: 50%;
   }
   .activite__avis {
     width: 60%;
-    margin: 0px auto;
+    margin: 20px auto;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -181,9 +181,11 @@ body {
 .footer {
   background-color: #5B359D;
   padding-top: 20px;
-  height: 450px;
   font-weight: bold;
   color: white;
+}
+.footer__info {
+  margin-left: 20px;
 }
 .footer__localisation {
   text-align: center;
@@ -200,7 +202,6 @@ body {
 
 .rubriques {
   list-style: none;
-  margin: 30px 0px 10px 0px;
   opacity: 50%;
   font-size: 18px;
 }
@@ -218,7 +219,7 @@ body {
   list-style: none;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 481px) {
   .footer__reseaux {
     width: 40%;
     margin: 20px auto;
@@ -226,11 +227,9 @@ body {
   .footer__info {
     display: flex;
     justify-content: space-around;
-    margin-right: 50px;
+    width: 90%;
+    margin: 0px auto;
     gap: 40px;
-  }
-  .footer {
-    height: 300px;
   }
 }
 
